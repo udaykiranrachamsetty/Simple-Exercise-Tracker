@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/back_color"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Fitness App"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/idTVHeading"
+        android:layout_marginTop="180dp" />
+
+    <TextView
+        android:id="@+id/idTVSubHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVHeading"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Welcome to Fitness App"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVSubHeading"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/idLLExercise"
+            android:orientation="vertical"
+            android:layout_margin="4dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="150dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:id="@+id/idLAVExercise"
+                app:lottie_rawRes="@raw/weightlifting"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See Exercise"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abel"
+                android:importantForAutofill="no"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/idLLStepCounter"
+            android:orientation="vertical"
+            android:layout_margin="4dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="150dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:id="@+id/idLAVStepCounter"
+                app:lottie_rawRes="@raw/stepcounter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step Counter"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abel"
+                android:importantForAutofill="no"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

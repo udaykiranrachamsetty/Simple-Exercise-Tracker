@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="side_plank">
+        <strong>Exercise: Side Plank</strong> \n
+        <strong>Steps:</strong> \n
+        1. Begin by lying on your side with your legs straight.\n
+        2. Prop yourself up using your forearm, ensuring your elbow is directly below your shoulder.\n
+        3. Engage your core muscles and raise your body, keeping your body in a straight line from head to heels.\n
+        4. Hold this position for the desired duration, maintaining a straight spine and avoiding sagging or arching.\n
+        5. Gently lower yourself back down and switch to the other side to balance the workout.\n
+        <strong>Benefits:</strong> \n
+        1. Strengthens three muscle groups at once \n
+        2. Protects your spine \n
+        3. Strengthens your core without stressing your back \n
+    </string>
+
+    <string name="lunges">
+        <strong>Exercise: Lunges</strong> \n
+        <strong>Steps:</strong> \n
+        1. Start by standing straight with your feet hip-width apart.\n
+        2. Take a step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle.\n
+        3. Ensure your front knee is directly above your ankle and not pushed too far forward.\n
+        4. Your back knee should be just above the floor, but not touching it.\n
+        5. Push back up to the starting position using your front heel.\n
+        6. Alternate legs and repeat the movement for the desired number of repetitions.\n
+        <strong>Benefits:</strong> \n
+        1. Lunges target hips, glutes, quads, hamstrings, and calves. \n
+        2. Improves balance and flexibility. \n
+        3. Enhances range of motion. \n
+    </string>
+
+    <string name="push_ups">
+        <strong>Exercise: Push-Ups</strong> \n
+
+        <strong>Benefits:</strong> \n
+        1.  Targets chest, shoulders, and arms. \n
+        2.  Engages core muscles for stability. \n
+        3.  Boosts overall endurance and strength. \n
+    </string>
+
+    <string name="abs_crunches">
+        <strong>Exercise: Abdominal Crunches</strong> \n
+
+        <strong>Benefits:</strong> \n
+        1.  Focuses on core and abdominal muscles. \n
+        2.  Strengthens the core for stability and support. \n
+        3.  Aids in improving flexibility of the spine. \n
+    </string>
+
+    <string name="stepping">
+        <strong>Exercise: High Stepping</strong> \n
+        <strong>Benefits:</strong> \n
+        1.  Increases heart rate, aiding in cardio fitness. \n
+        2.  Engages and strengthens leg muscles. \n
+        3.  Reduces stress on joints while exercising. \n
+    </string>
+</resources>
